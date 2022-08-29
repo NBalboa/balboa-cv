@@ -70,13 +70,18 @@ section {
     height: 100%;
     align-items: flex-start;
     justify-content: center;
+    background: url('img/cover.gif');
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 70px;
+
 }
 
     .home h1{
         text-align: center;
         width: 100%;
         padding-top: 250px;
-        color: #F1F1F1;
+        color: #100F0F;
         font-size: 3.5rem;
     }
 
@@ -135,13 +140,14 @@ section {
 
         .techonology{
             display: flex;
-            justify-content: space-around;
+            justify-content: space-evenly;
             flex-wrap: wrap;
         }
 
             .techonology img{
                 height: 90px;
                 margin-bottom: 20px;
+                margin-left: 40px;
             }
 
 
